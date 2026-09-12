@@ -2,7 +2,7 @@ Attribute VB_Name = "Table_Karnaugh"
 ' ========================================
 ' TABLEAU DE KARNAUGH
 ' ========================================
-Sub TableauKarnaugh()
+Sub TableauKarnaugh(Optional control As IRibbonControl)
     Dim reponse As Variant
     Dim nbVar As Integer
     Dim nbLignes As Integer, nbColonnes As Integer
